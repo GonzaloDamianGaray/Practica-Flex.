@@ -1,0 +1,118 @@
+*{
+    
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(235, 11, 11, 0.993)
+    
+} 
+
+
+nav{
+    display: flex;
+    border: 1px solid black;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 65px;
+}
+
+#logo-nav{
+    padding: 10px;
+    font-size: 40px;
+    justify-content: start;
+
+}
+
+.titulo{
+    font-size: 20px;
+}
+
+
+.nave{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none; 
+   font-size: 18px;
+   justify-content: space-evenly; 
+   color: black;
+   flex: auto;
+}
+
+.titulo:hover{
+    color: pink;
+}
+
+li:hover{
+    color: pink;
+}
+
+
+.presentacion{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    flex-wrap: wrap;
+    
+}
+
+.email{
+   display: flex; 
+   justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.enviar{
+    
+    background-color: black;
+    color: red;
+    border-radius:8px;
+    height: 27px;
+    width: 600px;
+    border: 1px solid rgb(117, 12, 12);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.boton{
+    background-color: black;
+    color: red;
+    border-radius:8px;
+    height: 30px;
+    width: 60px;
+    border: 1px solid rgb(117, 12, 12);
+    margin-top: 50px;
+}
+
+.textos{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    gap:50px
+    
+    
+}
+
+
+.prueba{
+    display: flex;
+    flex:auto;
+    justify-content: space-around;
+    text-align: center;
+    
+    
+    
+}
+
+#mundo{
+    font-size: 40px;
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
